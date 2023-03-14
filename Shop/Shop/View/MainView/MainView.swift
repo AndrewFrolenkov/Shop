@@ -64,13 +64,6 @@ struct ChatView: View {
     }
 }
 
-struct ProfileView: View {
-    var body: some View {
-        Text("Profile View")
-    }
-}
-
-
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView()

@@ -10,10 +10,6 @@ import Foundation
 // MARK: - FlashSaleModel
 struct FlashSaleModel: Codable {
     let flashSale: [FlashSale]
-
-    enum CodingKeys: String, CodingKey {
-        case flashSale = "flash_sale"
-    }
 }
 
 // MARK: - FlashSale
