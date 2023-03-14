@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CategoryButtonView: View {
+struct CategoryButtonView: View, Hashable {
     let category: String
     let isSelected: Bool
     let image: String

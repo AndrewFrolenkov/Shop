@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+let screen = UIScreen.main.bounds
+
 @main
 struct ShopApp: App {
     let persistenceController = PersistenceController.shared
